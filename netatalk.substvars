@@ -1,0 +1,4 @@
+python:Depends=python
+perl:Depends=perl
+shlibs:Depends=libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libc6 (>= 2.13-28), libcomerr2 (>= 1.01), libcrack2 (>= 2.8.12), libdb5.1, libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libevent-2.0-5 (>= 2.0.10-stable), libgcc1 (>= 1:4.4.0), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.8), libgssapi-krb5-2 (>= 1.8+dfsg), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), netatalk
+misc:Depends=

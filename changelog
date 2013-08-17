@@ -1,0 +1,11 @@
+netatalk (3.0.5-1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Thomas Pani <thomas.pani@gmail.com>  Sat, 17 Aug 2013 17:43:25 +0200
+
+netatalk (3.0.4-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Thomas Pani <thomas.pani@gmail.com>  Sat, 10 Aug 2013 20:45:18 +0200

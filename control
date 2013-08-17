@@ -1,0 +1,29 @@
+Source: netatalk
+Section: net
+Priority: extra
+Maintainer: Thomas Pani <thomas.pani@gmail.com>
+# Build-Depends: see http://netatalk.sourceforge.net/wiki/index.php/Install_Netatalk_3.0.4_on_Debian_7_Wheezy
+Build-Depends: debhelper (>= 8.0.0), autotools-dev,
+	libssl-dev,
+	libgcrypt11-dev,
+	libkrb5-dev,
+	libpam0g-dev,
+	libwrap0-dev,
+	libdb-dev,
+	libavahi-client-dev,
+	libacl1-dev,
+	libldap2-dev,
+	libcrack2-dev,
+	systemtap-sdt-dev,
+	libdbus-1-dev,
+	libdbus-glib-1-dev,
+	libglib2.0-dev,
+	libevent-dev
+Build-Conflicts: libavahi-compat-libdnssd-dev
+Standards-Version: 3.9.3
+Homepage: http://netatalk.sourceforge.net/
+
+Package: netatalk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An AFP fileserver.
